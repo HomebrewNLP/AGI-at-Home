@@ -23,7 +23,7 @@ ITEMS = 1 + 2 + 2 + 1 + 5 + 1 + 256
 # 3-4: scroll x/y
 # 5: scroll y/n
 # 6-10: click y/n for left/right/mmb/shoulder1/shoulder2
-# 11: WM_KEY (no fucking clue)
+# 11: WM_KEY (no clue)
 # 12-265: keyboard
 
 
@@ -107,7 +107,7 @@ class Log:
         if not dat[12 + obj[1]]:
             return
         dat[11] = obj[0]
-        dat[12 + obj[1]] = 0  # asdasopiop  IUIOASU 9u uU u 0
+        dat[12 + obj[1]] = 0
         self.append(dat)
 
     def run(self):
@@ -118,6 +118,3 @@ class Log:
 
 
 Log().run()
-
-# helllo my anem is peirr i am you also doing  are doing good atoo that >wou HELLO CAN YOU HEAR ME YOU ASSHATOO THAT
-# >wou HELLO CAN YOU HEAR ME YOU ASSHATOO THAT >wou HELLO CAN YOU HEAR ME YOU ASSHAT?
