@@ -14,7 +14,7 @@ from pynput.keyboard._win32 import Listener
 
 def main():
     listener = Listener()
-    cache = np.load("cache.npy")
+    cache = np.load("../../cache.npy")
     base = datetime.datetime.fromtimestamp(0)
     key = 0
 
